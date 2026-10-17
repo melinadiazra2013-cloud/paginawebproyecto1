@@ -1,0 +1,6 @@
+{
+  "name": "Estudio Jurídico Laboral Dra. Mariana Rossi",
+  "description": "Estudio jurídico especializado en derecho laboral: despidos, accidentes de trabajo, ART y trabajo no registrado. Asesoramiento legal de excelencia.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

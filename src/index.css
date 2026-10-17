@@ -1,0 +1,57 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    /* Palette from user reference image */
+    /* Creamy Latte */
+    --color-creamy-latte: #F3E9D7;
+    --color-creamy-latte-soft: #FAF5EB;
+
+    /* Warm Cappuccino */
+    --color-warm-cappuccino: #D6BFA6;
+    --color-cappuccino-border: #DECCA9;
+
+    /* Caramel Roast (marrón clarito para botones y acentos) */
+    --color-caramel-roast: #B08968;
+    --color-caramel-roast-hover: #9E7757;
+    --color-caramel-roast-light: #C29F80;
+
+    /* Mocha Bean */
+    --color-mocha-bean: #7A553A;
+
+    /* Café con chorrito de crema (el color más oscuro, suavizado y aclarado) */
+    --color-cafe-crema: #4E3B31;
+    --color-cafe-crema-deep: #433229;
+    --color-cafe-crema-surface: #564237;
+  }
+
+  body {
+    font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    color: #433229;
+    background-color: #FAF5EB;
+  }
+
+  .font-classic {
+    font-family: 'Cormorant Garamond', Garamond, Georgia, serif;
+    letter-spacing: -0.01em;
+  }
+
+  .font-sans-body {
+    font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  }
+}
+
+/* Custom scrollbar in coffee & cream tones */
+::-webkit-scrollbar {
+  width: 7px;
+}
+::-webkit-scrollbar-track {
+  background: #F3E9D7;
+}
+::-webkit-scrollbar-thumb {
+  background: #D6BFA6;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #B08968;
+}
